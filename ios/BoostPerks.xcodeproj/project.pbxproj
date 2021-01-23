@@ -19,6 +19,7 @@
 		2D2BFA0BC9F8280780DD13C7 /* libPods-BoostPerks-BoostPerksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDED93F5A6B761636709EDC /* libPods-BoostPerks-BoostPerksTests.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* BoostPerksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BoostPerksTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AB25C75C25BC0A7B0044E233 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB25C75B25BC0A7B0044E233 /* AppCenter-Config.plist */; };
 		F5E947E8D8016CEBED365382 /* libPods-BoostPerks-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07366C6892F9CA28E248E0FA /* libPods-BoostPerks-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		7011139970C41C1151807019 /* libPods-BoostPerks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoostPerks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8003D8540843AB683DE3647A /* Pods-BoostPerks-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostPerks-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-BoostPerks-tvOSTests/Pods-BoostPerks-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BoostPerks/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB25C75B25BC0A7B0044E233 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		C1A27D11798F3CDEB7E02D94 /* Pods-BoostPerks-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostPerks-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BoostPerks-tvOSTests/Pods-BoostPerks-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D563C75C10C6B517C567C142 /* Pods-BoostPerks-BoostPerksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostPerks-BoostPerksTests.debug.xcconfig"; path = "Target Support Files/Pods-BoostPerks-BoostPerksTests/Pods-BoostPerks-BoostPerksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -134,7 +136,6 @@
 				C1A27D11798F3CDEB7E02D94 /* Pods-BoostPerks-tvOSTests.debug.xcconfig */,
 				8003D8540843AB683DE3647A /* Pods-BoostPerks-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				AB25C75B25BC0A7B0044E233 /* AppCenter-Config.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -342,6 +344,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AB25C75C25BC0A7B0044E233 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
