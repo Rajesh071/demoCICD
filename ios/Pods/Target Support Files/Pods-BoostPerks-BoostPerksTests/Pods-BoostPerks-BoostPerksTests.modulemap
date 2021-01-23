@@ -1,0 +1,6 @@
+module Pods_BoostPerks_BoostPerksTests {
+  umbrella header "Pods-BoostPerks-BoostPerksTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
